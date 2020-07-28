@@ -1,6 +1,7 @@
 import React from 'react';
 import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
+import ImageCard from './components/ImageCard';
 
 function VideoCardGroup({
   ignoreFirstVideo,
@@ -30,15 +31,28 @@ function VideoCardGroup({
             return null;
           }
 
+          if(video.linkAmazonUrl){
+            return (
+              <li key={video.titulo}>
+                <ImageCard
+                  imageTitle={video.titulo}
+                  imageURL={video.url}
+                  linkAmazonUrl={video.linkAmazonUrl}
+                  categoryColor={categoryColor}
+                />
+              </li>
+            );
+          }else{
           return (
-            <li key={video.titulo}>
-              <VideoCard
-                videoTitle={video.titulo}
-                videoURL={video.url}
-                categoryColor={categoryColor}
-              />
-            </li>
-          );
+              <li key={video.titulo}>
+                <VideoCard
+                  videoTitle={video.titulo}
+                  videoURL={video.url}
+                  categoryColor={categoryColor}
+                />
+              </li>
+            );
+          }
         })}
       </VideoCardList>
     </VideoCardGroupContainer>
