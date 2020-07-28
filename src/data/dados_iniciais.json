@@ -1,0 +1,212 @@
+{
+  "capa":{
+    "titulo": "A história do movimento Black Lives Matter (com legenda)",
+    "descricao": "Este vídeo nos apresenta um pouco da história do BLM e porquê esse movimento não pode ser ignorado!",
+    "url": "https://www.youtube.com/watch?v=jMedqlxbFfM",
+    "cor": "#d6c017"
+  },
+  "categorias": [
+    {
+      "titulo": "Pessoas",
+      "link": "https://www.politize.com.br/movimento-negro/",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Exemplos de pessoas que lutaram pelo movimento negro",
+        "url": "https://www.politize.com.br/movimento-negro/"
+      },
+      "videos": [
+        {
+          "titulo": "Lelia Gonzalez",
+          "url": "https://www.youtube.com/watch?v=fv5_xRpHV2s"
+        },
+        {
+          "titulo": "Mariele Franco",
+          "url": "https://www.youtube.com/watch?v=-gUVlxFsnGo"
+        },
+        {
+          "titulo": "Sueli Carneiro",
+          "url": "https://www.youtube.com/watch?v=gBYk4ePmS6s"
+        },
+        {
+          "titulo": "Angela Davis",
+          "url": "https://www.youtube.com/watch?v=pVsV-ptUAw4"
+        },
+        {
+          "titulo": "Rosa Parks",
+          "url": "https://www.youtube.com/watch?v=AKWFPzvYUGo"
+        },
+        {
+          "titulo": "Malcom X",
+          "url": "https://www.youtube.com/watch?v=TTBhvm61uGc"
+        },
+        {
+          "titulo": "Martin Luther King, Jr.",
+          "url": "https://www.youtube.com/watch?v=RI42-5TfGeU"
+        },
+        {
+          "titulo": "Nelson Mandela",
+          "url": "https://www.youtube.com/watch?v=Faxekko5BH8"
+        }         
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "link": "https://canaltech.com.br/cinema/filmes-importantes-sobre-racismo-consciencia-negra-155469/",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Filmes que abordam questão do racismo",
+        "url": "https://guiadoestudante.abril.com.br/estudo/8-filmes-sobre-racismo-e-desigualdade-racial/"
+      },
+      "videos": [
+        {
+          "titulo": "Eu não Sou seu Negro (2016)",
+          "url": "https://youtu.be/rNUYdgIyaPM"
+        },
+        {
+          "titulo": "Branco Sai Preto Fica (2014)",
+          "url": "https://youtu.be/NJ_zeRJKUI4"
+        },
+        {
+          "titulo": "Menino 23 – Infâncias Perdidas no Brasil (2016)",
+          "url": "https://youtu.be/DcFuY_lPwh8"
+        },
+        {
+          "titulo": "Mississippi em Chamas (1988)",
+          "url": "https://www.youtube.com/watch?v=PoxShtBTRVI"
+        },
+        {
+          "titulo": "Green Book (2018)",
+          "url": "https://www.youtube.com/watch?v=QkZxoko_HC0"
+        },
+        {
+          "titulo": "12 Anos de Escravidão (2013)",
+          "url": "https://www.youtube.com/watch?v=Ad3Kk7-W3xw"
+        },
+        {
+          "titulo": "Histórias Cruzadas (2011)",
+          "url": "https://www.youtube.com/watch?v=Cqn4XN21O1g"
+        },
+        {
+          "titulo": "Django Livre (2012)",
+          "url": "https://www.youtube.com/watch?v=9vO2pd_y6s8"
+        }        
+      ]
+    },
+    {
+      "titulo": "Documentários",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Documentários que abordam questão do racismo",
+        "url": "http://www.educacaodocampo.ufes.br/conteudo/28-document%C3%A1rios-para-debater-racismo"
+      },
+      "videos": [
+        {
+          "titulo": "Racismo Camuflado no Brasil",
+          "url": "https://www.youtube.com/watch?v=zJVPM18bjFY"
+        },
+        {
+          "titulo": "Chacinas nas periferias",
+          "url": "https://www.youtube.com/watch?v=53rQggrAouI"
+        },
+        {
+          "titulo": "The Colour of Money - A História do Racismo e do Escravismo",
+          "url": "https://www.youtube.com/watch?v=0NQz2mbaAnc"
+        },
+        {
+          "titulo": "Raça Humana",
+          "url": "https://www.youtube.com/watch?v=y_dbLLBPXLo"
+        }, 
+        {
+          "titulo": "A História do Racismo e do Escravismo (BBC).",
+          "url": "https://www.youtube.com/watch?v=jtg9xH2kum8"
+        }
+      ]
+    },
+    {
+      "titulo": "Novelas",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Novelas com protagonistas negros",
+        "url": "https://emais.estadao.com.br/noticias/tv,dia-da-consciencia-negra-a-presenca-do-negro-em-novelas-na-tv,70003089701"
+      },
+      "videos": [
+        {
+          "titulo": "Xica da Silva (Tais Araujo)",
+          "url": "https://www.youtube.com/watch?v=M-MOPDxesMw"
+        },
+        {
+          "titulo": "Tocaia Grande (Tais Araujo)",
+          "url": "https://www.youtube.com/watch?v=1sUkihLVYd4"
+        },
+        {
+          "titulo": "Velho Chico (Camila Pitanga)",
+          "url": "https://www.youtube.com/watch?v=7Kxfo7R_q6M"
+        },
+        {
+          "titulo": "Cobras e Largartos (Lazaro Ramos)",
+          "url": "https://www.youtube.com/watch?v=_I3Ff054xKk"
+        }
+      ]
+    },
+    {
+      "titulo": "Livros",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Livros sobre racismo",
+        "url": "https://revistagalileu.globo.com/Cultura/Livros/noticia/2020/06/13-livros-sobre-racismo-que-irao-te-ajudar-lutar-contra-o-preconceito.html"
+      },
+      "videos": [
+        {
+          "titulo": "PEQUENO MANUAL ANTIRRACISTA (DJAMILA RIBEIRO)",
+          "url": "https://www.youtube.com/watch?v=zhvw8EzbYec"
+        },
+        {
+          "titulo": "Entre o mundo e eu (Ta-Nehisi Coates)",
+          "url": "https://www.youtube.com/watch?v=pQk5Qdw3LY0"
+        },
+        {
+          "titulo": "Como ser antirracista (Ibram X. Kendi)",
+          "url": "https://www.youtube.com/watch?v=uqZpGCt_qfk"
+        },
+        {
+          "titulo": "Racismo Estrutural (Silvio Almeida)",
+          "url": "https://www.youtube.com/watch?v=PD4Ew5DIGrU"
+        },
+        {
+          "titulo": "Escravidão (Laurentino Gomes)",
+          "url": "https://www.youtube.com/watch?v=DjLUQZzqfH8"
+        }
+      ]
+    },
+    {
+      "titulo": "Entrevistas sobre o tema",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Entrevistas com nomes negros do cenário brasileiro ou pessoas que falam sobre a temática racial",
+        "url": "https://www.youtube.com/channel/UCNVsZnDXOM4PodYIEgM2e4w"
+      },
+      "videos": [
+        {
+          "titulo": "Roda Viva | Emicida | 27/07/2020",
+          "url": "https://www.youtube.com/watch?v=pDV3SGzV3m4"
+        },
+        {
+          "titulo": "Roda Viva | Silvio Almeida | 22/06/2020",
+          "url": "https://www.youtube.com/watch?v=L15AkiNm0Iw"
+        },
+        {
+          "titulo": "Roda Viva | A questão racial | 11/12/2017",
+          "url": "https://www.youtube.com/watch?v=df5ujgc8be0"
+        },
+        {
+          "titulo": "Roda Viva | Emanoel Araújo | 18/12/2017",
+          "url": "https://www.youtube.com/watch?v=m5EuVYiz5U8"
+        },
+        {
+          "titulo": "Roda Viva | Laurentino Gomes | 25/11/2019",
+          "url": "https://www.youtube.com/watch?v=fLASHTQaJoo"
+        }
+      ]
+    }
+  ]
+}
