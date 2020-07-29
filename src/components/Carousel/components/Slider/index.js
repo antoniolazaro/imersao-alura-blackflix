@@ -71,6 +71,7 @@ const Slider = ({ children }) => (
       variableWidth: true,
       adaptiveHeight: true,
       focusOnSelect: true,
+      swipeToSlide: true,
       slidesToShow: 5,
       slidesToScroll: 5,
       nextArrow: <SampleNextArrow />,
