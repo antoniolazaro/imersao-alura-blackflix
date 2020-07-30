@@ -29,6 +29,12 @@
       "descricao": "teste 3",
       "cor": "#d6c017",
       "id": 5
+    },
+    {
+      "nome": "Categoria 5",
+      "descricao": "1321321",
+      "cor": "#d6c017",
+      "id": 6
     }
   ]
 }
