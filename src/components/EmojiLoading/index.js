@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import EmojiMario from '../../assets/img/emoji-mario.png';
 import EmojiJu from '../../assets/img/emoji-ju.png';
 
@@ -12,17 +12,29 @@ margin-top: 30px;
 
 const Image = styled.img`
 
-height: 50px;
-width: 50px;
+  height: 50px;
+  width: 50px;
 
-animation: rotation 1.0s infinite linear;
-  @keyframes rotation {
-  from {
-    transform: rotate(180deg);
+  animation: rotation 1.0s infinite linear;
+    @keyframes rotation {
+    from {
+      transform: rotate(180deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
   }
-  to {
-    transform: rotate(0deg);
-  }
+
+  ${({ className }) => {
+    if (className === 'left') {
+      return `
+      &.left {
+        animation-direction: reverse;
+      }
+      `;
+    }
+    return '';
+  }};
 
 `;
 
@@ -34,6 +46,7 @@ function EmojiLoading() {
         as="img"
         src={EmojiMario}
         alt="Loading"
+        className="left"
       />
       <Image
         as="img"

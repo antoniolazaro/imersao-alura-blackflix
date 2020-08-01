@@ -2,39 +2,286 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Pessoas",
-      "descricao": "Exemplos de pessoas que lutaram pelo movimento negro",
-      "cor": "#d6c017"
+      "titulo": "Pessoas",
+      "link": "https://www.politize.com.br/movimento-negro/",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Exemplos de pessoas que lutaram pelo movimento negro",
+        "url": "https://www.politize.com.br/movimento-negro/"
+      }
     },
     {
       "id": 2,
-      "nome": "Pessoas 2 ",
-      "descricao": "Exemplos de pessoas que lutaram pelo movimento negro",
-      "cor": "#d6c017"
+      "titulo": "Filmes",
+      "link": "https://canaltech.com.br/cinema/filmes-importantes-sobre-racismo-consciencia-negra-155469/",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Filmes que abordam questão do racismo",
+        "url": "https://guiadoestudante.abril.com.br/estudo/8-filmes-sobre-racismo-e-desigualdade-racial/"
+      }
     },
     {
       "id": 3,
-      "nome": "Pessoas 3",
-      "descricao": "Exemplos de pessoas que lutaram pelo movimento negro",
-      "cor": "#d6c017"
+      "titulo": "Documentários",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Documentários que abordam questão do racismo",
+        "url": "http://www.educacaodocampo.ufes.br/conteudo/28-document%C3%A1rios-para-debater-racismo"
+      }
     },
     {
-      "nome": "teste",
-      "descricao": "teste 2",
-      "cor": "#d6173d",
+      "titulo": "Novelas",
+      "cor": "#d6c017",
+      "link_extra": {
+        "text": "Novelas com protagonistas negros",
+        "url": "https://emais.estadao.com.br/noticias/tv,dia-da-consciencia-negra-a-presenca-do-negro-em-novelas-na-tv,70003089701"
+      },
       "id": 4
     },
     {
-      "nome": "teste 2",
-      "descricao": "teste 3",
+      "titulo": "Livros",
       "cor": "#d6c017",
+      "link_extra": {
+        "text": "Livros sobre racismo",
+        "url": "https://revistagalileu.globo.com/Cultura/Livros/noticia/2020/06/13-livros-sobre-racismo-que-irao-te-ajudar-lutar-contra-o-preconceito.html"
+      },
       "id": 5
     },
     {
-      "nome": "Categoria 5",
-      "descricao": "1321321",
+      "titulo": "Entrevistas sobre o tema",
       "cor": "#d6c017",
+      "link_extra": {
+        "text": "Entrevistas com nomes negros do cenário brasileiro ou pessoas que falam sobre a temática racial",
+        "url": "https://www.youtube.com/channel/UCNVsZnDXOM4PodYIEgM2e4w"
+      },
       "id": 6
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Lelia Gonzalez",
+      "url": "https://www.youtube.com/watch?v=fv5_xRpHV2s"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Mariele Franco",
+      "url": "https://www.youtube.com/watch?v=-gUVlxFsnGo"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Sueli Carneiro",
+      "url": "https://www.youtube.com/watch?v=gBYk4ePmS6s"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Angela Davis",
+      "url": "https://www.youtube.com/watch?v=pVsV-ptUAw4"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Rosa Parks",
+      "url": "https://www.youtube.com/watch?v=AKWFPzvYUGo"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Malcom X",
+      "url": "https://www.youtube.com/watch?v=TTBhvm61uGc"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Martin Luther King, Jr.",
+      "url": "https://www.youtube.com/watch?v=RI42-5TfGeU"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Nelson Mandela",
+      "url": "https://www.youtube.com/watch?v=Faxekko5BH8"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Eu não Sou seu Negro (2016)",
+      "url": "https://youtu.be/rNUYdgIyaPM"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Branco Sai Preto Fica (2014)",
+      "url": "https://youtu.be/NJ_zeRJKUI4"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Menino 23 – Infâncias Perdidas no Brasil (2016)",
+      "url": "https://youtu.be/DcFuY_lPwh8"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Mississippi em Chamas (1988)",
+      "url": "https://www.youtube.com/watch?v=PoxShtBTRVI"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Green Book (2018)",
+      "url": "https://www.youtube.com/watch?v=QkZxoko_HC0"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "12 Anos de Escravidão (2013)",
+      "url": "https://www.youtube.com/watch?v=Ad3Kk7-W3xw"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Histórias Cruzadas (2011)",
+      "url": "https://www.youtube.com/watch?v=Cqn4XN21O1g"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Django Livre (2012)",
+      "url": "https://www.youtube.com/watch?v=9vO2pd_y6s8"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Racismo Camuflado no Brasil",
+      "url": "https://www.youtube.com/watch?v=zJVPM18bjFY"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Chacinas nas periferias",
+      "url": "https://www.youtube.com/watch?v=53rQggrAouI"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "The Colour of Money - A História do Racismo e do Escravismo",
+      "url": "https://www.youtube.com/watch?v=0NQz2mbaAnc"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Raça Humana",
+      "url": "https://www.youtube.com/watch?v=y_dbLLBPXLo"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "A História do Racismo e do Escravismo (BBC).",
+      "url": "https://www.youtube.com/watch?v=jtg9xH2kum8"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Xica da Silva (Tais Araujo)",
+      "url": "https://www.youtube.com/watch?v=M-MOPDxesMw"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Tocaia Grande (Tais Araujo)",
+      "url": "https://www.youtube.com/watch?v=1sUkihLVYd4"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Velho Chico (Camila Pitanga)",
+      "url": "https://www.youtube.com/watch?v=7Kxfo7R_q6M"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Cobras e Largartos (Lazaro Ramos)",
+      "url": "https://www.youtube.com/watch?v=_I3Ff054xKk"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "PEQUENO MANUAL ANTIRRACISTA (DJAMILA RIBEIRO)",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51MIiyfps7L._SX342_BO1,204,203,200_.jpg",
+      "linkAmazonUrl": "https://www.amazon.com.br/Pequeno-manual-antirracista-Djamila-Ribeiro/dp/8535932879/ref=asc_df_8535932879/?tag=googleshopp00-20&linkCode=df0&hvadid=379805465669&hvpos=&hvnetw=g&hvrand=17782324806344774084&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001533&hvtargid=pla-847467434854&psc=1"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Entre o mundo e eu (Ta-Nehisi Coates)",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51S1ZdzzTRL._SX331_BO1,204,203,200_.jpg",
+      "linkAmazonUrl": "https://www.amazon.com.br/Entre-mundo-eu-Ta-Nehisi-Coates/dp/8539007207/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Entre+o+mundo+e+eu&qid=1595964100&s=books&sr=1-1"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Como ser antirracista (Ibram X. Kendi)",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51X3cJOlJZL._SX346_BO1,204,203,200_.jpg",
+      "linkAmazonUrl": "https://www.amazon.com.br/Como-ser-Antirracista-Ibram-Kendi/dp/8550814555/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Como+ser+antirracista&qid=1595964145&s=books&sr=1-1"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Racismo Estrutural (Silvio Almeida)",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51U7lLUmUGL._SX366_BO1,204,203,200_.jpg",
+      "linkAmazonUrl": "https://www.amazon.com.br/Racismo-Estrutural-Silvio-Almeida/dp/8598349747/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Racismo+Estrutural+%28Silvio+Almeida%29&qid=1595964225&s=books&sr=1-1"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Escravidão (Laurentino Gomes)",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41+cv-ifbhL._SY344_BO1,204,203,200_.jpg",
+      "linkAmazonUrl": "https://www.amazon.com.br/Escravid%C3%A3o-primeiro-cativos-Portugal-Palmares/dp/6580634014/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Escravid%C3%A3o&qid=1595964252&s=books&sr=1-1"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Roda Viva | Emicida | 27/07/2020",
+      "url": "https://www.youtube.com/watch?v=pDV3SGzV3m4"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Roda Viva | Silvio Almeida | 22/06/2020",
+      "url": "https://www.youtube.com/watch?v=L15AkiNm0Iw"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Roda Viva | A questão racial | 11/12/2017",
+      "url": "https://www.youtube.com/watch?v=df5ujgc8be0"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Roda Viva | Emanoel Araújo | 18/12/2017",
+      "url": "https://www.youtube.com/watch?v=m5EuVYiz5U8"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Roda Viva | Laurentino Gomes | 25/11/2019",
+      "url": "https://www.youtube.com/watch?v=fLASHTQaJoo"
+    },
+    {
+      "titulo": {
+        "titulo": "Título Padrão",
+        "url": "https://www.youtube.com/watch?v=xbo9GVmv87Y",
+        "categoria": "Novelas"
+      },
+      "url": "https://www.youtube.com/watch?v=xbo9GVmv87Y",
+      "categoriaId": 4,
+      "id": 33
     }
   ]
 }

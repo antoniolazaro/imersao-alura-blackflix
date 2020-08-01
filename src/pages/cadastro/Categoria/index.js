@@ -1,57 +1,43 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import EmojiLoading from '../../../components/EmojiLoading';
+import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
-  const [categorias, setCategorias] = useState([]);
-
-  const URL = window.location.hostname.includes('localhost')
-    ? 'http://localhost:4000/categorias'
-    : 'https://imersao-react-blackflix.herokuapp.com/categorias'; 
-
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#d6c017',
   };
-  const [values, setValues] = useState(valoresIniciais);
 
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
-  function onChangeHandler({ target }) {
-    const { id, value } = target;
-    setValue(id, value);
-  }
+  const [categorias, setCategorias] = useState([]);
 
   function onSubmitHandler(event) {
     event.preventDefault();
     setCategorias([...categorias, values]);
 
-    const requestOptions = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(values),
-    };
-
-    fetch(URL, requestOptions)
-      .then((response) => response.json())
-      .then(() => setValues(valoresIniciais));
+    categoriasRepository.insert(values)
+      .then((resposta) => {
+        console.log(resposta);
+        clearForm(valoresIniciais);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }
 
   useEffect(() => {
-
-    fetch(URL)
-      .then(async (response) => {
-        const resposta = await response.json();
-        setCategorias([...resposta]);
+    categoriasRepository.getAll().then((categoriasComVideos) => {
+      setCategorias(categoriasComVideos);
+    })
+      .catch((error) => {
+        alert(error);
       });
   }, []);
 
@@ -59,15 +45,15 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
       <form onSubmit={onSubmitHandler}>
 
         <FormField
-          id="nome"
-          label="Nome"
-          value={values.nome}
-          onChangeHandler={onChangeHandler}
+          id="titulo"
+          label="Título"
+          value={values.titulo}
+          onChangeHandler={handleChange}
         />
 
         <FormField
@@ -75,7 +61,7 @@ function CadastroCategoria() {
           type="textarea"
           label="Descrição"
           value={values.descricao}
-          onChangeHandler={onChangeHandler}
+          onChangeHandler={handleChange}
         />
 
         <FormField
@@ -83,7 +69,7 @@ function CadastroCategoria() {
           type="color"
           label="Cor"
           value={values.cor}
-          onChangeHandler={onChangeHandler}
+          onChangeHandler={handleChange}
         />
 
         <Button>
@@ -97,8 +83,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={categoria.nome}>
-            {categoria.nome}
+          <li key={categoria.id}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
